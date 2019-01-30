@@ -7,8 +7,10 @@ def load_library(path)
   # binding.pry
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon()
   # code goes here
+  # iterate over hashes in the emoticons file until you find the matching english emoticon
+  # return the second value in that same array.
 end
 
 def get_english_meaning
